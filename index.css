@@ -2,7 +2,12 @@ body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
 
 ul {
     display: flex;
@@ -10,6 +15,7 @@ ul {
     list-style-type: none;
     align-items: center;
     padding: 16px;
+    margin: 0;
 }
 
 a {
@@ -39,11 +45,13 @@ footer img {
 }
 
 footer {
+    padding: 150px;
     text-align: center;
 }
 
 .container {
     padding: 0px 50px;
+    flex: 1;
 }
 
 nav a:hover {
@@ -64,5 +72,9 @@ footer a:hover {
 }
 
 #g {
+    color: red;
+}
+
+.email a:hover {
     color: red;
 }
